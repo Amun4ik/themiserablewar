@@ -6,18 +6,19 @@ state={
 	
 	state_category = megalopolis
 	resources={
-		steel = 16 # was: 28
-		coal = 16 # initial distribution
+		steel = 16
+		coal = 16
 	}
 
 	history={
-		#owner = SOV
+		owner = SOV
+		add_core_of = SOV
 		victory_points = {
 			6380 50 
 		}
 		buildings = {
-			infrastructure = 4 #was: 8
-			arms_factory = 7
+			infrastructure = 4
+			arms_factory = 3
 			industrial_complex = 3
 			air_base = 10
 			6380 = {
@@ -28,16 +29,6 @@ state={
                     }
                 }
             }
-		}
-		#add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-				arms_factory = 10
-				3391 = {
-					land_facility = 1 # Mytischi
-				}
-			}
 		}
 	}
 
