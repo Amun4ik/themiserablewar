@@ -1,0 +1,4 @@
+GER	= "countries/Germany.txt"
+FRA	= "countries/France.txt"
+BEL	= "countries/Belgium.txt"
+LUX	= "countries/Luxemburg.txt"
