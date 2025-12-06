@@ -2,12 +2,12 @@
 state = {
 	id = 39
 	name = "STATE_39" # (South Tyrol) Alto Adige
-	manpower = 298290 # was 641650 before Trentino split
+	manpower = 275920 # уменьшил
 	
 	state_category = town
 	
 	resources = {
-		aluminium = 14 # was: 22
+		aluminium = 14
 	}
 
 	history = {
@@ -20,6 +20,7 @@ state = {
 		}
 		add_core_of = AUS
 		add_claim_by = ITA
+		set_demilitarized_zone = yes
 	}
 
 	provinces = {

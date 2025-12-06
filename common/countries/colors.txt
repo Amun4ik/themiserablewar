@@ -5,32 +5,32 @@ GER = {
 	color_ui = rgb { 96 85 86 }
 }
 FRA = {
-	color = rgb { 92 142 136 }
-	color_ui = rgb { 92 142 136 }
+	color = rgb { 96 154 170 }
+	color_ui = rgb { 96 154 170 }
 }
 LUX = {
 	color = rgb { 91 96 165 }
 	color_ui = rgb { 91 96 165 }
 }
 BEL = {
-	color = rgb { 158 165 109  }
-	color_ui = rgb { 158 165 109 }
+	color = rgb { 163 158 86 }
+	color_ui = rgb { 163 158 86 }
 }
 SOV = {
 	color = rgb { 130 38 33 }
 	color_ui = rgb { 130 38 33 }
 }
 AUS = {
-	color = rgb { 147 133 146 }
-	color_ui = rgb { 147 133 146 }
+	color = rgb { 187 173 186 }
+	color_ui = rgb { 187 173 186 }
 }
 HUN = {
 	color = rgb { 100 145 103 }
 	color_ui = rgb { 100 145 103 }
 }
 ITA = {
-	color = rgb { 72 99 52 }
-	color_ui = rgb { 72 99 52 }
+	color = rgb { 82 109 62 }
+	color_ui = rgb { 82 109 62 }
 }
 POL = {
 	color = rgb { 150 78 131 }

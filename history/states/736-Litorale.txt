@@ -27,7 +27,7 @@ state = {
 	provinces = {
 		599 6626 11595 11735
 	}
-	manpower = 1063159 # was 1063159 before Istria was merged with Fiume (~25k pop added to new Istria state (Fiume + Pola)
+	manpower = 983420 #уменьшил
 	buildings_max_level_factor = 1.000
 
 	local_supplies = 0.0 

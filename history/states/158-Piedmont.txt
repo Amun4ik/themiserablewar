@@ -2,19 +2,20 @@
 state = {
 	id = 158
 	name = "STATE_158"
-	manpower = 4765476
+	manpower = 4408000 #уменьшил
 	
 	state_category = metropolis
 	resources = {
-		steel = 24 # was: 40
-		aluminium = 16 # was: 28
-		chromium = 2 # was: 4
-		tungsten = 1 # was: 2
-		coal = 1 # initial distribution
+		steel = 24
+		aluminium = 16
+		chromium = 2
+		tungsten = 1
+		coal = 1
 	}
 
 	history = {
-		#owner = ITA
+		owner = ITA
+		add_core_of = ITA
 		victory_points = {
 			6788 10 
 		}
@@ -23,24 +24,12 @@ state = {
 		}
 		buildings = {
 			infrastructure = 4 #was: 7
-			arms_factory = 7
+			arms_factory = 1
 			industrial_complex = 1
-			dockyard = 2
+			dockyard = 1
 			air_base = 8
 			6788 = {
-				naval_base = 8
-			}
-		}
-		#add_core_of = ITA
-		#add_core_of = SPM
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 10
-				industrial_complex = 2
-				dockyard = 3
-				6788 = {
-					naval_facility = 1 # Genoa Facilities
-				}
+				naval_base = 7
 			}
 		}
 	}

@@ -1,7 +1,7 @@
 state={
 	id=90
 	name="STATE_90" # Kielce
-	manpower = 1835700
+	manpower = 1698000 #уменьшил
 	
 	state_category = town
 	
@@ -16,14 +16,14 @@ state={
 		victory_points = {
 			3458 5
 		}
-		#victory_points = {
-		#	562 3
-		#}
-		#owner = POL
+		victory_points = {
+			562 3
+		}
 		buildings = {
 			infrastructure = 3
 		}
-		#add_core_of = POL
+		owner = POL
+		add_core_of = POL
 	}
 
 	provinces={
