@@ -17,6 +17,7 @@ replace_path="history/states"
 replace_path="history/countries"
 replace_path="common/national_focus"
 replace_path="common/bookmarks"
+replace_path="common/state_category"
 replace_path="map/strategicregions"
 
 name="The Miserable War"

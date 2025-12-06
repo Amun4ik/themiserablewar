@@ -1,0 +1,12 @@
+state_categories={
+	enclave = {
+		local_building_slots = 0
+		
+    buildings_max_level = {
+        naval_base = 4
+        air_base = 4
+    }
+
+		color = { 40 40 40 }
+	}
+}

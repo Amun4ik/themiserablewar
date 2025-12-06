@@ -2,7 +2,7 @@
 state={
 	id=48
 	name="STATE_48"
-	manpower = 1685989
+	manpower = 1559500 #уменьшил
 	resources={
 		aluminium = 2
 		coal = 1 #initial distribution
@@ -12,7 +12,8 @@ state={
 	state_category = city
 
 	history={
-		#owner = BUL
+		owner = BUL
+		add_core_of = BUL
 		victory_points = { #Sofia
 			949 15 
 		}
@@ -21,10 +22,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 6
+			industrial_complex = 1
 			air_base = 3
 		}
-		#add_core_of = BUL
 	}
 
 	provinces={

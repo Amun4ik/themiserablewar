@@ -1,0 +1,12 @@
+state_categories={
+	large_city = {
+		local_building_slots = 5
+		
+    buildings_max_level = {
+        naval_base = 9
+        air_base = 9
+    }
+	
+		color = { 0 240 0 }
+	}
+}

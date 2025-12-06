@@ -1,0 +1,13 @@
+state_categories={
+	rural = {
+		local_building_slots = 1
+		
+    buildings_max_level = {
+        naval_base = 5
+        air_base = 5
+    }
+	
+		color = { 240 160 0 }
+
+	}
+}

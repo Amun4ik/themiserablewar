@@ -1,8 +1,11 @@
 #reload countrycolors
 
+# ЕВРОПА
+
+
 GER = {
-	color = rgb { 96 85 86 }
-	color_ui = rgb { 96 85 86 }
+	color = rgb { 91 80 81 }
+	color_ui = rgb { 91 80 81  }
 }
 FRA = {
 	color = rgb { 96 154 170 }
@@ -21,12 +24,12 @@ SOV = {
 	color_ui = rgb { 130 38 33 }
 }
 AUS = {
-	color = rgb { 187 173 186 }
-	color_ui = rgb { 187 173 186 }
+	color = rgb { 177 163 176 }
+	color_ui = rgb { 177 163 176 }
 }
 HUN = {
-	color = rgb { 100 145 103 }
-	color_ui = rgb { 100 145 103 }
+	color = rgb { 95 140 98 }
+	color_ui = rgb { 95 140 98 }
 }
 ITA = {
 	color = rgb { 82 109 62 }
@@ -36,6 +39,51 @@ POL = {
 	color = rgb { 150 78 131 }
 	color_ui = rgb { 150 78 131 }
 }
+LIT = {
+	color = rgb { 140 89 81 }
+	color_ui = rgb { 140 89 81 }
+}
+UKR = {
+	color = rgb { 110 139 158 }
+	color_ui = rgb { 110 139 158 }
+}
+BLR = {
+	color = rgb { 130 38 33 }
+	color_ui = rgb { 130 38 33 }
+}
+ROM = {
+	color = rgb { 155 153 80 }
+	color_ui = rgb { 155 153 80 }
+}
+BOS = {
+	color = rgb { 114 153 138 }
+	color_ui = rgb { 114 153 138 }
+}
+SER = {
+	color = rgb { 98 90 153 }
+	color_ui = rgb { 140 89 81 }
+}
+BUL = {
+	color = rgb { 95 119 52 }
+	color_ui = rgb { 95 119 52 }
+}
+ALB = {
+	color = rgb { 117 84 103 }
+	color_ui = rgb { 117 84 103 }
+}
+GRE = {
+	color = rgb { 102 131 135 }
+	color_ui = rgb { 102 131 135 }
+}
+TUR = {
+	color = rgb { 132 104 111 }
+	color_ui = rgb { 132 104 111 }
+}
+
+
+# АЗИЯ
+
+
 TRA = {
 	color = rgb { 65 107 62 }
 	color_ui = rgb { 86 140 81 }

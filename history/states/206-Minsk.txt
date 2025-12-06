@@ -2,12 +2,13 @@
 state={
 	id=206
 	name="STATE_206"
-	manpower =  1163163
+	manpower =  1075900 #уменьшил
 	
 	state_category = city
 
 	history={
-		#owner = SOV
+		owner = BLR
+		add_core_of = BLR
 		victory_points = {
 			11370 20
 		}
@@ -15,16 +16,10 @@ state={
 			9289 5
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
 			air_base = 8
-		}
-		#add_core_of = SOV
-		#add_core_of = BLR
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-			}
 		}
 	}
 

@@ -9,12 +9,10 @@ state = {
 	}
 
 	history = {
-		#owner = ALB
+		owner = ALB
+		add_core_of = ALB
 		victory_points = {
 			9914 5 
-		}
-		victory_points = {
-			11767 2 
 		}
 		victory_points = {
 			13255 2
@@ -27,30 +25,18 @@ state = {
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 3
-			11767 = {
-				naval_base = 4
-			}
 			13255 = {
 				naval_base = 2
 			}
 
 		}
-		#add_core_of = ALB
-		#add_claim_by = ITA
-		1939.4.12 = {
-			#owner = ITA
-			controller = ITA
-			remove_claim_by = ITA
-
-		}
-
 	}
 
 	provinces = {
-		3448 3884 6900 9875 9914 11767 13255 
+		3448 3884 6900 9875 9914 13255 
 	}
-	manpower = 493867
+	manpower = 454720 #уменьшил + 21к отдал в влёру
 	buildings_max_level_factor = 1.000
 	state_category = town
-	local_supplies = 5.000
+	local_supplies = 0.000
 }

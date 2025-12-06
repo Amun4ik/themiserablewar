@@ -1,0 +1,13 @@
+state_categories={
+	pastoral = {
+		local_building_slots = 0
+		
+    buildings_max_level = {
+        naval_base = 2
+        air_base = 4
+    }
+	
+		color = { 160 160 0 }
+
+	}
+}
