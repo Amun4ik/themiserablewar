@@ -4,8 +4,8 @@ state={
 
 	history = {
 
-		owner = MAN
-		add_core_of = MAN
+		owner = FEN
+		add_core_of = FEN
 
 		victory_points = {
 			12485 1 # Ulanhot
@@ -20,7 +20,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 
 	}
@@ -28,7 +28,7 @@ state={
 	provinces={
 		1502 1545 1588 1645 1693 1732 1847 4506 4592 4649 4809 4876 7526 7582 7613 7767 7832 7848 7873 7894 7897 10368 10379 10675 10698 12485 12548 12618 
 	}
-	manpower=3694191
+	manpower=3417126 #уменьшил
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 

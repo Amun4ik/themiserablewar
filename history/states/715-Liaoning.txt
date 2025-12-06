@@ -1,22 +1,21 @@
 state = {
 	id = 715
 	name = "STATE_715"
-	manpower = 3643373
+	manpower = 3370120 #уменьшил
 	
 	state_category = town
 
 	history = { 
 
-		owner = MAN
-		add_core_of = MAN
+		owner = FEN
+		add_core_of = FEN
 
 		victory_points = {
 			11836 1 # Tongliao
 		}
 
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
+			infrastructure = 1
 			industrial_complex = 1
 		}
 

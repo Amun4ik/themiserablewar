@@ -13,9 +13,8 @@ state = {
 
 
 	history = {
-
-		#owner = FRA
-		#add_core_of = VIN
+        owner = FRA
+		add_core_of = FIC
 		
 		victory_points = {
 			4075 5 # Hanoi 

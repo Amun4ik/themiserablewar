@@ -1,7 +1,7 @@
 state = {
 	id = 612
 	name = "STATE_612"
-	manpower = 566000
+	manpower = 523550 #уменьшил
 	buildings_max_level_factor = 1.000
 	state_category = rural
 
@@ -11,13 +11,8 @@ state = {
 
 	history = {
 
-		owner = MAN
-		add_core_of = MAN
-
-		buildings = {
-			infrastructure = 1
-			arms_factory = 1
-		}
+		owner = FEN
+		add_core_of = FEN
 
 		victory_points = {
 			10372 1 # Xilinhot

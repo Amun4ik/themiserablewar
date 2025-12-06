@@ -2,9 +2,9 @@
 state={
 	id=442
 	name="STATE_442"
-	manpower = 4684400
+	manpower = 4333070 #уменьшил
 	resources={
-		steel=3
+		steel=4
 	}
 	state_category = wasteland
 
@@ -12,14 +12,13 @@ state={
 		victory_points = {
 			12763 3
 		}
-		#owner = RAJ
+		owner = AFG
 		buildings = {
 			infrastructure = 1
 			air_base = 1
 		}
-		#add_core_of = NWF
-		#add_core_of = PAK
-		#add_core_of = KHL
+		add_core_of = AFG
+
 	}
 
 	provinces={

@@ -4,18 +4,18 @@ state={
 	provinces={
 		 2032 2086 10794 11955  
 	}
-	manpower=636246
+	manpower=588527 #уменьшил
 	buildings_max_level_factor=1.000
 	state_category=large_city
 	local_supplies=1.000
 	history={
-		#owner = RAJ
+		owner = IND
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
-			air_base = 4
+			air_base = 2
 		}
-		#add_core_of = RAJ
+		add_core_of = IND
 		victory_points = {
 			2086 30
 		}

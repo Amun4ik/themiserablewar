@@ -2,27 +2,27 @@
 state={
 	id=267
 	name="STATE_267" # Kabul
-	manpower = 1976110
+	manpower = 1827901 #уменьшил
 	
 	state_category = town
 	
 	resources={
 		tungsten=3 # was: 3
 		chromium=2
-		steel=2
+		steel=5
 
 	}
 	history={
-		#owner = AFG
+		owner = AFG
+		add_core_of = AFG
 		buildings = {
-			infrastructure = 1
-			arms_factory = 1
 			industrial_complex = 1  
+			infrastructure = 1
 		}
 		victory_points = {
 			10737 5 
 		}
-		#add_core_of = AFG
+		
 	}
 
 	provinces={

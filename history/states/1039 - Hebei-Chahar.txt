@@ -1,14 +1,14 @@
 state = {
 	id = 1039
 	name = "STATE_1039" # South Chahar
-	manpower = 367500
+	manpower = 339937 #уменьшил
 	
 	state_category = pastoral
 
 	history = {
 
-		owner = MAN
-		add_core_of = MAN
+		owner = FEN
+		add_core_of = FEN
 
 		buildings = {
 			infrastructure = 1 #was 2

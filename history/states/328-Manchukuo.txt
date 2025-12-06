@@ -2,7 +2,7 @@
 state={
 	id=328
 	name="STATE_328" # Kirin
-	manpower = 7536266
+	manpower = 6971046 #уменьшил
 	
 	state_category = rural
 
@@ -11,8 +11,9 @@ state={
 	}
 
 	history={
-		owner = MAN
-		add_core_of = MAN
+		owner = FEN
+		add_core_of = FEN
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
