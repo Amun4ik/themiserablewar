@@ -9,11 +9,8 @@ state={
 	
 	history = {
 
-		#owner = SHX
-		#add_core_of = SHX
-		#add_core_of = CHI
-		#add_core_of = PRC
-		#add_core_of = MEN
+		owner = GUO
+		add_core_of = GUO
 
 		victory_points = {
 			3427 1 # Ordos
@@ -27,16 +24,6 @@ state={
 			infrastructure = 1
 		}
 
-		1938.10.25 = {
-			controller = JAP
-		}
-		
-		1939.1.1 = {
-			
-			#owner = PRC
-			controller = MEN
-
-		}
 	}
 	manpower=500000
 

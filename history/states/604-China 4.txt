@@ -4,12 +4,13 @@ state = {
 
 	history = {
 
-		owner = TIB
-		add_core_of = TIB
+		owner = XSM
+		add_core_of = XSM
+		add_claim_by = TIB
 
-		#victory_points = {
-		#	7940 10 # Goldmud was not ofunded until in the late fifties
-		#}
+		victory_points = {
+			7940 10 # Goldmud was not ofunded until in the late fifties
+		}
 
 		victory_points = {
 			8018 1 # Yushu
@@ -18,19 +19,6 @@ state = {
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 2
-		}
-
-		1938.10.25 = {
-			IF = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
-				}
-				CHI = {
-					transfer_state = PREV
-				}
-			}
 		}
 
 	}

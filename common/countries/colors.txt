@@ -60,3 +60,51 @@ KUO = {
 	color = rgb { 128  113  155 }
 	color_ui = rgb { 128  113  155 }
 }
+ZHI = {
+	color = rgb { 215  172  52 }
+	color_ui = rgb { 215  172  52 }
+}
+SHA = {
+    color = rgb { 215  172  52 }
+	color_ui = rgb { 215  172  52 }
+}
+GXC = {
+	color = rgb { 128  113  155 }
+	color_ui = rgb { 128  113  155 }
+}
+GUO = {
+	color = rgb { 144  176  178 }
+	color_ui = rgb { 144  176  178 }
+}
+SHX = {
+	color = rgb { 128  113  155 }
+	color_ui = rgb { 128  113  155 }
+}
+SAA = {
+	color = rgb { 155  102  74 }
+	color_ui = rgb { 155  102  74 }
+}
+XSM = {
+	color = rgb { 145  100  103 }
+	color_ui = rgb { 145  100  103 }
+}
+XIN = {
+	color = rgb { 165  143  124 }
+	color_ui = rgb { 165  143  124 }
+}
+KUM = {
+	color = rgb { 145  128  111 }
+	color_ui = rgb { 145  128  111 }
+}
+GUI = {
+	color = rgb { 137  116  100 }
+	color_ui = rgb { 137  116  100 }
+}
+CHO = {
+	color = rgb { 122  145  100 }
+	color_ui = rgb { 122  145  100 }
+}
+YUN = {
+	color = rgb { 112  96  78 }
+	color_ui = rgb { 112  96  78 }
+}

@@ -8,9 +8,9 @@ state = {
 	
 	history = {
 
-		#owner = CHI
-		#add_core_of = CHI
-		#add_core_of = PRC
+		owner = JAP
+		add_core_of = SHA
+		
 		IF = {
 			limit = {
 				has_dlc = "No Compromise, No Surrender"
@@ -35,11 +35,6 @@ state = {
 			}
 
 		}
-
-		1938.10.25 = {
-			controller = JAP
-		}
-
 	}
 
 	provinces = {
