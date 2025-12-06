@@ -10,23 +10,24 @@ state = {
 	state_category = town
 
 	history={
-		#owner = SOV
+		owner = TRA
 		victory_points = {
-			957 15
+			957 15 
 		}
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
-			air_base = 5
+			air_base = 3
+			industrial_complex = 2
+			arms_factory = 1
 			957 = {
-				naval_base = 8
-				coastal_bunker = 3
+				naval_base = 6
+				coastal_bunker = 5
 				naval_supply_hub = 1
 			}
 		}
-		#add_core_of = SOV
-		#add_core_of = FER
-		#add_core_of = VLA
+		add_core_of = TRA
+		add_claim_by = SOV
 	}
 
 	provinces = {
