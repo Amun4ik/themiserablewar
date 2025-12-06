@@ -116,3 +116,23 @@ KOR = {
 	color = rgb { 116  127  153 }
 	color_ui = rgb { 116  127  153 }
 }
+FEN = {
+	color = rgb { 215  172  52 }
+	color_ui = rgb { 215  172  52 }
+}
+PRC = {
+	color = rgb { 190  29  29 }
+	color_ui = rgb { 190  29  29 }
+}
+FIC = {
+	color = rgb { 96 154 170 }
+	color_ui = rgb { 96 154 170 }
+}
+AFG = {
+	color = rgb { 150  128  102 }
+	color_ui = rgb { 150  128  102 }
+}
+IND = {
+	color = rgb {  188  110  0 }
+	color_ui = rgb {  188  110  0 }
+}

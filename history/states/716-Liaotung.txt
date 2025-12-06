@@ -10,8 +10,9 @@ state={
 	}
 
 	history={
-		owner = MAN
-		add_core_of = MAN
+		owner = FEN
+		add_core_of = FEN
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
@@ -42,7 +43,7 @@ state={
 	provinces={
 		836 846 892 964 987 3783 3839 3849 3895 3970 6804 6860 6910 6918 6951 6981 9781 9788 9835 9854 9885 11764 11771 11808 11815 
 	}
-	manpower=10264620
+	manpower=9494773 #уменьшил
 	buildings_max_level_factor=1.000
 	state_category=city
 

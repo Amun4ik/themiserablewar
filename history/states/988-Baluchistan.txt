@@ -5,12 +5,11 @@ state={
 		5075 5105 8013 8044  
 	}
 	state_category = rural
-	manpower = 512000
+	manpower = 473600 #уменьшил
 	history={
-		#owner = RAJ
-		#add_core_of = RAJ
-		#add_core_of = PAK
-		#add_core_of = BLC
+		owner = AFG
+		add_core_of = AFG
+
 		buildings = {
 			infrastructure = 1
 		}

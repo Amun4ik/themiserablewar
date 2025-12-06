@@ -4,23 +4,23 @@ state={
 	state_category = rural
 
 	resources = {
-		chromium = 7
+		chromium = 8
 	}
 
 	provinces={
 		2017 2062 2078 1948 2101
 	}
 	history={
-		#owner = AFG
+		owner = AFG
 		buildings = {
 			infrastructure = 0
 		}
-		#add_core_of = AFG
+		add_core_of = AFG
 		victory_points = {
 			2017 1
 		}
 	}
-	manpower = 281165
+	manpower = 260077 #уменьшил
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

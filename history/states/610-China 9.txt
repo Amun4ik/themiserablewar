@@ -1,19 +1,19 @@
 state = {
 	id = 610
 	name = "STATE_610" # Jehol
-	manpower = 1975377
+	manpower = 1827223 #уменьшил
 	
 	state_category = pastoral
 
 	resources = {
 		oil = 1
-		coal = 1
+		coal = 2
 	}
 
 	history = {
 
-		owner = MAN
-		add_core_of = MAN
+		owner = FEN
+		add_core_of = FEN
 
 		victory_points = {
 			11801 2 # Jehol
@@ -24,7 +24,7 @@ state = {
 		}
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 
 	}

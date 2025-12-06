@@ -4,14 +4,14 @@ state={
 	provinces={
 		1776 4745 4852 7697 7743 10541 10567 10612 10638 12537 12690 13150 
 	}
-	manpower=2000000
+	manpower=1850000 #уменьшил
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 
 	history = {
 
-		owner = MAN
-		add_core_of = MAN
+		owner = FEN
+		add_core_of = FEN
 
 		victory_points = {
 			10612 1 # Manzhouli
@@ -30,7 +30,7 @@ state={
 		}
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 
 	}

@@ -1,5 +1,4 @@
-#oob = "FEN_1936"
-capital = 716
+#oob = "FIC_1936"
 
 set_research_slots = 3
 
@@ -90,8 +89,8 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 2
+	democratic = 60
 	fascism = 30
-	communism = 0
-	neutrality = 68
+	communism = 10
+	neutrality = 0
 }

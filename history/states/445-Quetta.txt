@@ -4,16 +4,15 @@ state={
 	provinces={
 		4990 7847 7903 10813 
 	}
-	manpower=405100
+	manpower=374717 #уменьшил
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000
 	history = {
-		#owner = RAJ
-		#add_core_of = PAK
-		#add_core_of = KHL
+		owner = AFG
+		add_core_of = AFG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 		}
 	}
 }
