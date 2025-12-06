@@ -1,16 +1,15 @@
 state = {
 	id = 1035
 	name = "STATE_1035"
-	manpower = 8652549
+	manpower = 8003600 #УМЕНЬШИЛ
 	state_category = large_town
 	resources = {
 
 	}
 
 	history = {
-		#owner = CHI
-		#add_core_of = CHI
-		#add_core_of = PRC
+		owner = GOM
+		add_core_of = GOM
 
 		buildings = {
 			infrastructure = 2	
@@ -28,10 +27,7 @@ state = {
 		victory_points = {
 			11913 20 # Nanjing
 		}
-		1938.10.25 = {
-			controller = JAP
-		}
-	}
+    }
 
 	provinces = {
 		1099 1146 4148 11913
