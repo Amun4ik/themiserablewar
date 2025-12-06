@@ -1,0 +1,25 @@
+state={
+	id=1047
+	name="STATE_1047"
+	resources={
+	
+	}
+
+	history={
+		owner = CHU
+		add_core_of = CHU
+	    add_claim_by = KUO
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		4480 7665 10335 10377 12017 12053 12310 
+	}
+	manpower = 3754334 # новый регион
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies=0.0 
+}

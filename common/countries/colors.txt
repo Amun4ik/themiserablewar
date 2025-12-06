@@ -108,3 +108,11 @@ YUN = {
 	color = rgb { 112  96  78 }
 	color_ui = rgb { 112  96  78 }
 }
+CHU = {
+	color = rgb { 125  118  137 }
+	color_ui = rgb { 125  118  137 }
+}
+KOR = {
+	color = rgb { 116  127  153 }
+	color_ui = rgb { 116  127  153 }
+}
