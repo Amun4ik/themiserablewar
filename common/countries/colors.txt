@@ -40,7 +40,7 @@ TIB = {
 	color = rgb { 171  190  152 }
 	color_ui = rgb { 171  190  152 }
 }
-GOM = {
+KUO = {
 	color = rgb { 128  113  155 }
 	color_ui = rgb { 128  113  155 }
 }

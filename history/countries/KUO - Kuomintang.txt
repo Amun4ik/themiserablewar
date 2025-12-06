@@ -1,4 +1,4 @@
-#oob = "GOM_1936"
+#oob = "KUO_1936"
 
 set_research_slots = 3
 

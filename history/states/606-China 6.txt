@@ -7,9 +7,8 @@ state={
 
 	history={
 
-		#owner = CHI
-		#add_core_of = CHI
-		#add_core_of = PRC
+		owner = KUO
+		add_core_of = KUO
 
 		buildings = {
 			infrastructure = 2 #was 4
@@ -24,17 +23,9 @@ state={
 			1083 1 # Anqing 
 		}
 
-		#victory_points = {
-		#	9937 1 # Jinjiazhai 
-		#} 
-
-		1938.10.25 = {
-			controller = JAP
-			buildings = {
-				industrial_complex = 3
-				infrastructure = 3 #was: 6
-				air_base = 1
-				arms_factory = 1
+		victory_points = {
+			9937 1 # Jinjiazhai 
+		} 
 
 			}
 
@@ -45,7 +36,7 @@ state={
 	provinces={
 		1083 4079 4158 4203 7035 7094 7222 7637 9937 9959 10008 10017 10040 10064 10079 11916 11994 12036 12061 
 	}
-	manpower=18265400
+	manpower=16900500 #EVTYMIBK
 	buildings_max_level_factor=1.000
 	state_category=town
 
