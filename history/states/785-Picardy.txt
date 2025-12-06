@@ -5,18 +5,18 @@ state={
 	
 	state_category = town
 	resources={
-		steel=12 #was:20 was: 112
-		aluminium=4 # was: 22
+		steel=12
+		aluminium=4
 	}
 	
 	history={
 		victory_points = {
 			11420 5
 		}
-		#owner = FRA
-		#add_core_of = FRA
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
-			infrastructure = 4 #was: 8
+			infrastructure = 4
 			industrial_complex = 1
 		}
 	}

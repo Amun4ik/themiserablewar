@@ -1,18 +1,18 @@
 state = {
 	id = 34
 	name = "STATE_34"
-	manpower = 3043170 # was 3381300, 10% was split off to the Ardennes (980)
+	manpower = 3043170
 	resources={
-		steel=22 # was: 14
-		coal = 5 # More added through focus BEL_revive_coal_mining
+		steel=22
+		coal = 5
 	}
 
 	state_category = large_city
 
 	history = {
 
-		#owner = BEL
-		#add_core_of = BEL
+		owner = BEL
+		add_core_of = BEL
 
 		victory_points = {
 			3516 5 # Namur
@@ -29,7 +29,7 @@ state = {
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 4
+			industrial_complex = 1
 			air_base = 1
 		}
 		

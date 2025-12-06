@@ -1,7 +1,7 @@
 state = {
 	id = 51
 	name = "STATE_51"
-	manpower = 6144743
+	manpower = 6164743
 	resources = {
 		steel = 35
 		coal = 60
@@ -36,6 +36,7 @@ state = {
 			industrial_complex = 3
 			air_base = 3
 		}
+		set_demilitarized_zone = yes
 	}
 
 	provinces = {

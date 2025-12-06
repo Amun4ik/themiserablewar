@@ -4,20 +4,19 @@ state={
 
 	history={
 		victory_points = { 619 3 }
-		#owner = YUG
+		owner = HUN
+		add_core_of = HUN
 		buildings = {
 			infrastructure = 3
 
 		}
-		#add_core_of = YUG
-		#add_core_of = SER
 
 	}
 
 	provinces={
 		619 3617 3623 9608 9621
 	}
-	manpower=838621
+	manpower=775700 # уменьшил
 	buildings_max_level_factor=1.000
 	state_category=town
 
