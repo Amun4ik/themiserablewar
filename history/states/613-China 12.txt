@@ -1,7 +1,7 @@
 state = {
 	id = 613
 	name = "STATE_613" # Shanghai
-	manpower = 5720900 # EVTYMIBK
+	manpower = 5720900 # уменьшил
 	
 	state_category = large_city
 	
@@ -11,7 +11,7 @@ state = {
 		add_core_of = KUO
 
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			air_base = 6
 			dockyard = 1
 			arms_factory = 2
