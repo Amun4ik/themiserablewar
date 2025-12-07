@@ -2,17 +2,17 @@
 state={
 	id=208
 	name="STATE_208" # Luga
-	manpower = 341819
+	manpower = 316200 #уменьшил
 	
 	state_category = rural
 
 	history={
-		#owner = SOV
+		owner = SOV
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 2 #was: 5
 			air_base = 3
 		}
-		#add_core_of = SOV
+		add_core_of = SOV
 		victory_points = {
 			9098 1
 		}

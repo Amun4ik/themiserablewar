@@ -1,0 +1,25 @@
+
+state = {
+	id = 1052
+	name = "STATE_1052"
+
+	history = {
+		owner = SUK
+		add_core_of = SUK
+		add_core_of = UKR
+		victory_points = {
+			11557 5 # brovary
+		}
+		buildings = {
+			infrastructure = 2 
+		}
+	}
+
+	provinces = {
+		489 582 9491 9543 11530 11557 
+	}
+	manpower = 244000
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

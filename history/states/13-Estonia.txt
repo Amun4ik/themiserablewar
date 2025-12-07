@@ -7,18 +7,17 @@ state={
 	}
 
 	history={
-		#owner = EST
+		owner = EST
+		add_core_of = EST
+		add_core_of = SEE
 		victory_points = {
 			3174 1 #Voru
 		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 1
 			air_base = 2
 
 		}
-		#add_core_of = EST
 
 	}
 
@@ -26,8 +25,8 @@ state={
 		83 308 3074 3174 6381 11291 
 	}
 
-	local_supplies=6.0 
-	manpower=423070
+	local_supplies=0.0 
+	manpower=391300 #уменьшил
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

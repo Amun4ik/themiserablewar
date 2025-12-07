@@ -2,7 +2,7 @@
 state={
 	id=12
 	name="STATE_12"
-	manpower = 408500
+	manpower = 377900 #уменьшил
 	resources={
 		steel=1 # was: 2
 	}
@@ -10,16 +10,16 @@ state={
 	state_category = rural
 	
 	history={
-		#owner = LAT
+		owner = LAT
+		add_core_of = LAT
+		add_core_of = SLV
 		victory_points = {
 			10493 1 #Valmiera
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 2
 			air_base = 3
 		}
-		#add_core_of = LAT
 	}
 
 	provinces={

@@ -2,7 +2,7 @@
 state={
 	id=219
 	name="STATE_219"
-	manpower = 8335992
+	manpower = 7710800 #уменьшил
 	
 	state_category = megalopolis
 	resources={
@@ -18,8 +18,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			arms_factory = 3
-			industrial_complex = 3
+			arms_factory = 2
+			industrial_complex = 2
 			air_base = 10
 			6380 = {
                 landmark_kremlin = {

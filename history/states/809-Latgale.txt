@@ -4,7 +4,9 @@ state={
 	name="STATE_809"
 
 	history={
-		#owner = LAT
+		owner = LAT
+		add_core_of = LAT
+		add_core_of = SLV
 		victory_points = {
 			310 3 #Daugavpils
 		}
@@ -13,17 +15,14 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
 		}
-		#add_core_of = LAT
 
 	}
 
 	provinces={
 		265 3255 3525 6222 6342 11358 
 	}
-	manpower=215500
+	manpower=199300 #уменьшил
 	buildings_max_level_factor=1.000
 	state_category=town
 }

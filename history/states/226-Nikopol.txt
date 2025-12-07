@@ -2,7 +2,7 @@
 state={
 	id=226
 	name="STATE_226" # Dnipropertovsk
-	manpower = 2211700 #уменьшил
+	manpower = 1831700 #уменьшил -380к в разные регионы
 	
 	state_category = town
 	
@@ -28,7 +28,7 @@ state={
 	}
 
 	provinces={
-		453 472 486 6423 9419 9433 9463 9479 11422 11437 11452 11561 
+		6423 9419 9433 11422 11437 11561 
 	}
 
 	local_supplies=0.0 

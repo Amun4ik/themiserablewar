@@ -1,13 +1,15 @@
 state = {
 	id = 137
 	name = "STATE_137"
-	manpower = 1061607
+	manpower = 982000 #уменьшил
 	
 	state_category = city
 
 	history = {
 
-		#owner = SOV
+		owner = WHM
+		add_core_of = WHM
+		add_core_of = SOV
 
 		victory_points = {
 			3686 20 # Sevastopol
@@ -29,10 +31,12 @@ state = {
 
 			infrastructure = 3
 			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 1
 			air_base = 3
 
 			3686 = {
-				naval_base = 10
+				naval_base = 8
 				coastal_bunker = 3
 				naval_headquarters = {
 					level = 1
@@ -47,18 +51,6 @@ state = {
 				coastal_bunker = 1
 			}
 			
-		}
-
-		#add_core_of = SOV
-		#add_core_of = CRI
-
-		1939.1.1 = {
-			buildings = {
-				dockyard = 2
-				3686 = {
-					naval_facility = 1 # Sevastopol Naval Facilties
-				}
-			}
 		}
 	}
 

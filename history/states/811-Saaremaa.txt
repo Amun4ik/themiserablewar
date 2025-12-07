@@ -4,20 +4,21 @@ state={
 	name="STATE_811"
 
 	history={
-		#owner = EST
+		owner = EST
+		add_core_of = EST
+		add_core_of = SEE
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
 			185 1
 		}
-		#add_core_of = EST
 	}
 
 	provinces={
 		185 6201 
 	}
-	manpower=32370
+	manpower=29900 #уменьшил
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }

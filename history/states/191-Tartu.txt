@@ -4,7 +4,9 @@ state={
 	name="STATE_191"
 
 	history={
-		#owner = EST
+		owner = EST
+		add_core_of = EST
+		add_core_of = SEE
 		victory_points = {
 			9221 1 
 		}
@@ -13,16 +15,14 @@ state={
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
-
 		}
-		#add_core_of = EST
 
 	}
 
 	provinces={
-		592 6178 6408 9221 9485 
+		592 6099 6178 6408 9221 9485 11057 
 	}
-	manpower=225840
+	manpower=218900 #уменьшил +10к от нарвы
 	buildings_max_level_factor=1.000
 	local_supplies=0.0 
 	state_category=rural

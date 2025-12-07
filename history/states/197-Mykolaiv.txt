@@ -2,15 +2,19 @@
 state={
 	id=197
 	name="STATE_197"
-	manpower = 829100 #уменьшил
+	manpower = 849100 #уменьшил +20к от херсона
 	
 	state_category = rural
 
 	history={
 		owner = UKR
 		add_core_of = UKR
+		add_core_of = SUK
 		victory_points = {
-			11683 3
+			11683 1 # nikolayev
+		}
+		victory_points = {
+			3755 3 # Kherson
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -22,7 +26,7 @@ state={
 	}
 
 	provinces={
-		409 574 3403 3755 6597 9573 11546 11683 
+		409 574 3403 3755 6597 9573 11546 11683 11715 
 	}
 
 	local_supplies=5.0 
