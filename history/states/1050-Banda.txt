@@ -1,0 +1,31 @@
+
+state = {
+	id = 1050
+	name = "STATE_1050"
+	
+	resources = {
+		oil = 2 
+	}
+
+	history = {
+		owner = BAN
+		add_core_of = BAN
+		victory_points = {
+			5040 2 #Banda
+		}
+		buildings = {
+			infrastructure = 0
+			arms_factory = 1
+		
+			
+		}
+	}
+
+	provinces = {
+		2005 4045 4410 5040 5096 7938
+	}
+	manpower = 8000000 #новый регион
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}
