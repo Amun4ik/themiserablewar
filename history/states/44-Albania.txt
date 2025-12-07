@@ -33,9 +33,9 @@ state = {
 	}
 
 	provinces = {
-		3448 3884 6900 9875 9914 13255 
+		3884 9875 9914 13255 
 	}
-	manpower = 454720 #уменьшил + 21к отдал в влёру
+	manpower = 414720 #уменьшил + 21к отдал в влёру и 40к отдал в северный эпир
 	buildings_max_level_factor = 1.000
 	state_category = town
 	local_supplies = 0.000

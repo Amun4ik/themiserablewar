@@ -2,9 +2,9 @@ state={
 	id=805
 	name="STATE_805"
 	provinces={
-		914 13234 13235
+		914 3448 6900 13234 13235
 	}
-	manpower = 242500 #УМЕНЬШИЛ
+	manpower = 282500 #УМЕНЬШИЛ + 40к от албании
 	resources={
 		#chromium=45
 		#steel = 10

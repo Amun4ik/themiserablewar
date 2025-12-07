@@ -2,16 +2,18 @@
 state={
 	id=226
 	name="STATE_226" # Dnipropertovsk
-	manpower = 2391047
+	manpower = 2211700 #уменьшил
 	
 	state_category = town
 	
 	resources={
-		oil=4 # was: 6
+		oil=4
 	}
 
 	history={
-		#owner = SOV
+		owner = UKR
+		add_core_of = UKR
+		add_core_of = SUK
 		victory_points = {
 			11437 10 
 		}
@@ -20,11 +22,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 2
 		}
-		#add_core_of = SOV
-		#add_core_of = UKR
 	}
 
 	provinces={

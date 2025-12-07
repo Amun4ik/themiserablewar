@@ -2,28 +2,19 @@
 state={
 	id=260
 	name="STATE_260" # Voronezh
-	manpower = 2567983
+	manpower = 2375400 #уменьшил
 	
 	state_category = town
 
 	history={
-		#owner = SOV
+		owner = SOV
+		add_core_of = SOV
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1
-			synthetic_refinery = 1 #NSB
 		}
 		victory_points = {
 			413 5
-		}
-		#add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
-				9448 = {
-					air_facility = 1
-				}
-			}
-			
 		}
 	}
 

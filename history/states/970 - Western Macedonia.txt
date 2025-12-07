@@ -7,10 +7,10 @@ state = {
 	}
 
 	history = {
-		#owner = YUG
+		owner = SER
+		add_core_of = SER
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		victory_points = {
 			833 2
@@ -18,14 +18,12 @@ state = {
 		victory_points = {
 			867 1
 		}
-		#add_core_of = YUG
-		#add_core_of = MAC
 	}
 
 	provinces = {
 		833 867 11856
 	} 
-	manpower = 343550
+	manpower = 317800 #уменьшил
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 

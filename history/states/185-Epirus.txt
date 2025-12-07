@@ -2,16 +2,18 @@
 state={
 	id=185
 	name="STATE_185"
-	manpower = 760900
+	manpower = 703830 #уменьшить
 	
 	state_category = rural
 	
 	resources={
-		chromium=14 # was: 20
-		steel = 14 # was: 20
+		chromium=14
+		steel = 14
 	}
 
 	history={
+		owner = GRE
+		add_core_of = GRE
 		victory_points = {
 			10203 1
 		}
@@ -21,16 +23,14 @@ state={
 		victory_points = {
 			1205 1
 		}
-		#owner = GRE
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			arms_factory = 1
 			air_base = 3
 			9805 = {
 				naval_base = 1
 			}
 		}
-		#add_core_of = GRE
 	}
 
 	provinces = {

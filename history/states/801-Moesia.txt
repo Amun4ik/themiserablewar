@@ -1,12 +1,13 @@
 state={
 	id=801
 	name="STATE_801"
-	manpower = 1218780
+	manpower = 1127370 #уменьшил
 
 	state_category=rural
 
 	history={
-		#owner = BUL
+		owner = BUL
+		add_core_of = BUL
 		victory_points = { #Ruse
 			9612 3
 		}
@@ -15,10 +16,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex =1
-
 		}
-		#add_core_of = BUL
 
 	}
 

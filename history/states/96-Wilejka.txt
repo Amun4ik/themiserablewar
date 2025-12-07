@@ -1,20 +1,19 @@
 state={
 	id=96
 	name="STATE_96"
-	manpower = 726000
+	manpower = 671550 #уменьшил
 	
 	state_category = rural
 	
 	history={
+		owner = BLR
+		add_core_of = BLR
 		victory_points = {
 			406 1
 		}
-		#owner = POL
 		buildings = {
 			infrastructure = 2
 		}
-		#add_core_of = POL
-		#add_core_of = BLR
 	}
 
 	provinces={

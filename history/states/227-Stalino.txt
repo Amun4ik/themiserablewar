@@ -2,7 +2,7 @@
 state={
 	id=227
 	name="STATE_227"
-	manpower = 3767336
+	manpower = 3484800 #уменьшил
 
 	resources = {
 		coal = 82 # initial distribution
@@ -11,15 +11,15 @@ state={
 	state_category = city
 
 	history={
-		#owner = SOV
+		owner = SUK
+		add_core_of = SUK
+		add_core_of = UKR
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
 		victory_points = {
 			6474 10
 		}
-		#add_core_of = SOV
-		#add_core_of = UKR
 	}
 
 	provinces={

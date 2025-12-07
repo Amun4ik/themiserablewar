@@ -4,7 +4,7 @@ state = {
 	
 	state_category = town
 	
-	manpower = 294748
+	manpower = 272640 #уменьшил
 	resources = {
 		steel = 14
 	}

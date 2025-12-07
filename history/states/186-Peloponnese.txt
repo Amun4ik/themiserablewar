@@ -2,11 +2,13 @@
 state={
 	id=186
 	name="STATE_186"
-	manpower=945000
+	manpower=874125 #уменьшил
 	
 	state_category = town
 
 	history={
+	    owner = GRE
+		add_core_of = GRE
 		victory_points = {
 			7211 5
 		}
@@ -16,7 +18,6 @@ state={
 		victory_points = {
 			11965 1
 		}
-		#owner = GRE
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -30,7 +31,6 @@ state={
 			}
 
 		}
-		#add_core_of = GRE
 
 	}
 

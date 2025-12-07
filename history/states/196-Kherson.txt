@@ -1,7 +1,7 @@
 state = {
 	id = 196
 	name = "STATE_196"
-	manpower = 728363
+	manpower = 673700 #уменьшил
 	
 	state_category = rural
 	
@@ -11,10 +11,10 @@ state = {
 
 	history = {
 
-		#owner = SOV
-		#add_core_of = SOV
-		#add_core_of = UKR
-		#add_core_of = CRI
+		owner = MKH
+		add_core_of = MKH
+		add_core_of = UKR
+		add_core_of = SUK
 
 		victory_points = {
 			721 1 # Kherson

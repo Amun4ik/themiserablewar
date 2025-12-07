@@ -2,17 +2,18 @@ state=
 {
 	id=79
 	name="STATE_79"
-	manpower = 2806400
+	manpower = 2596000 #уменьшил
 	
 	resources = {
-		coal = 1 # initial distribution
+		coal = 1
 	}
 
 	state_category = rural
 	
 	history=
 	{
-		#owner = ROM
+		owner = ROM
+		add_core_of = ROM
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -24,7 +25,6 @@ state=
 		victory_points = {
 			6706 1 
 		}
-		#add_core_of = ROM
 	}
 	provinces=
 	{

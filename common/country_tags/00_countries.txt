@@ -19,6 +19,8 @@ BUL = "countries/Bulgaria.txt"
 ALB = "countries/Albania.txt"
 GRE = "countries/Greece.txt"
 TUR = "countries/Turkey.txt"
+SUK = "countries/Soviet Ukraine.txt"
+MKH = "countries/Makhnovschina.txt"
 
 # АЗИЯ
 TRA = "countries/Transamur.txt"

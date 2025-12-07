@@ -4,24 +4,21 @@ state={
 	name="STATE_803"
 
 	history={
+		owner = SER
+		add_core_of = SER
 		victory_points = {
 			11857 1 
 		}
-		#owner = YUG
 		buildings = {
 			infrastructure = 2
 
 		}
-		#add_core_of = YUG
-		#add_core_of = SER
-		#add_claim_by = BUL
-
 	}
 
 	provinces={
 		11832 11857 11868 
 	}
-	manpower=210000
+	manpower=194000 #уменьшил
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 
