@@ -20,6 +20,7 @@ state=
 		}
 		strategic_province_location = {
 			defensible_coastline = 12003
+			favorable_approach = 12003
 		}
 	}
 	provinces= { 12003 }

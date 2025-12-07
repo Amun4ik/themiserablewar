@@ -1,0 +1,33 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = {
+		text = news.1.d
+	}
+	picture = GFX_news_event_olympics_1940
+	
+	major = yes
+	
+	trigger = {
+		NOT = { has_global_flag = olympics_1936 }
+		date > 1928.1.1
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.66.a
+	}
+}
+
+
+
+
