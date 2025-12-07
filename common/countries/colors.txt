@@ -212,3 +212,11 @@ IND = {
 	color = rgb {  188  110  0 }
 	color_ui = rgb {  188  110  0 }
 }
+PRI = {
+	color = rgb {  191  43  43 }
+	color_ui = rgb {  191  43  43 }
+}
+BAN = {
+	color = rgb {  188  110  0 }
+	color_ui = rgb {  188  110  0 }
+}
