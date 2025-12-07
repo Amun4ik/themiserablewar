@@ -23,6 +23,10 @@ news_event = {
 		days = 2
 	}
 	
+	immediate = {
+		set_global_flag = olympics_1936 
+	}
+	
 	option = {
 		name = news.66.a
 	}
