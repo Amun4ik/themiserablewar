@@ -12,6 +12,9 @@ state = {
 	}
 
 	history= {
+		strategic_province_location = {
+			natural_harbor = 11064
+		}
 		owner = ENG
 		add_core_of = ENG
 		victory_points = {
@@ -32,10 +35,6 @@ state = {
 				naval_base = 7
 				naval_supply_hub = 1	
 			}
-		}
-		
-		strategic_province_location = {
-			natural_harbor = 11064
 		}
 	}
 
