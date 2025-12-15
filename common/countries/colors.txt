@@ -107,6 +107,10 @@ WHM = {
 	color = rgb { 175  170  193 }
 	color_ui = rgb { 175  170  193 }
 }
+ENG = {
+	color = rgb { 155  72  92 }
+	color_ui = rgb { 155  72  92 }
+}
 
 
 # АЗИЯ

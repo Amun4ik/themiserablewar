@@ -1,25 +1,26 @@
 state={
 	id=126
 	name="STATE_126"
-	manpower=9824296
+	manpower=8841900 #уменьшил
 	
 	state_category = megalopolis
 
 	history={
-		#owner = ENG
+		owner = ENG
+		add_core_of = ENG
 		victory_points = {
 			6103 50 
 		}
 		buildings = {
-			infrastructure = 5 #was: 9
-			arms_factory = 3
+			infrastructure = 4 #was: 9
+			arms_factory = 2
 			industrial_complex = 3
 			dockyard = 1
 			anti_air_building = 5
 			radar_station = 1
-			air_base = 10
+			air_base = 8
 			11374 = {
-				naval_base = 10
+				naval_base = 9
 				naval_headquarters = {
 					level = 1
 					allowed = {
@@ -37,13 +38,6 @@ state={
 			    }
 			}
 
-		}
-		#add_core_of = ENG
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 4
-				industrial_complex = 4
-			}
 		}
 	}
 

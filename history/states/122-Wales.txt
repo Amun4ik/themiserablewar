@@ -1,7 +1,7 @@
 state= {
 	id=122
 	name="STATE_122"
-	manpower = 2309230
+	manpower = 2136000 #уменьшил
 	
 	state_category = city
 	
@@ -13,7 +13,8 @@ state= {
 
 	history=
 	{
-		#owner = ENG
+		owner = ENG
+		add_core_of = ENG
 		victory_points = {
 			407 3 #Swansea
 		}
@@ -28,8 +29,6 @@ state= {
 				naval_base = 3
 			}
 		}
-		#add_core_of = ENG
-		#add_core_of = WLS
 	}
 
 	provinces=

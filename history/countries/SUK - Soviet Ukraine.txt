@@ -1,5 +1,5 @@
 #oob = "SUK_1936"
-capital = 206
+capital = 221
 
 set_research_slots = 3
 

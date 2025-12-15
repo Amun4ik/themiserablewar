@@ -2,13 +2,13 @@ state=
 {
 	id=326
 	name="STATE_326"
-	manpower = 1143516
+	manpower = 1057750 #уменьшил
 	state_category = large_town
 	history=
 	{
-		#owner = ENG
-		#add_core_of = CHI
-		#add_core_of = PRC
+		owner = ENG
+		add_core_of = KUO
+
 		victory_points = {
 			10062 3 
 		}

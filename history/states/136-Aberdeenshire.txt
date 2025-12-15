@@ -2,7 +2,7 @@
 state={
 	id=136
 	name="STATE_136"
-	manpower = 745466
+	manpower = 689550 #уменьшил
 	
 	state_category = town
 	resources={
@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		#add_core_of = SCO
-		#owner = ENG
+		owner = ENG
+		add_core_of = ENG
 		victory_points = {
 			200 5 #Aberdeen
 		}
@@ -20,10 +20,8 @@ state={
 			3150 1 #Dundee
 		}
 		buildings = {
-			infrastructure = 3 #was: 6
-			dockyard = 2
+			infrastructure = 2 #was: 6
 		}
-		#add_core_of = ENG
 	}
 
 	provinces={

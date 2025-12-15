@@ -1,7 +1,7 @@
 state = {
 	id=931
 	name="STATE_931"
-	manpower = 745101
+	manpower = 689200 #уменьшил
 	state_category = town
 	resources = {
 		steel = 20 
@@ -9,8 +9,8 @@ state = {
 	}
 
 	history = {
-		#owner = ENG
-		#add_core_of = ENG
+		owner = ENG
+		add_core_of = ENG
 		victory_points = {
 			11332 3 #Carlisle
 		}

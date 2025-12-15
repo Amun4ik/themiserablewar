@@ -1,12 +1,12 @@
 state = {
 	id = 446
 	name = "STATE_446" # Suez
-	manpower = 131732
+	manpower = 121850 #уменьшил
 	state_category = wasteland
 
 	history = {
 
-		#owner = ENG
+		owner = ENG
 		#add_core_of = EGY
 
 		buildings = {

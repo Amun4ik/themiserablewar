@@ -26,6 +26,7 @@ SEE = "countries/Soviet Estonia.txt"
 LAT = "countries/Latvia.txt"
 SLV = "countries/Soviet Latvia.txt"
 WHM = "countries/White Movement.txt"
+ENG = "countries/United Kingdom.txt"
 
 # АЗИЯ
 TRA = "countries/Transamur.txt"

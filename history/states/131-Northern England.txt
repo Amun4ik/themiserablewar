@@ -2,7 +2,7 @@
 state={
 	id=131
 	name="STATE_131"
-	manpower = 2128860
+	manpower = 1969200 #уменьшил
 	
 	state_category = city
 	resources = {
@@ -12,24 +12,18 @@ state={
 	}
 
 	history={
-		#owner = ENG
-		#add_core_of = ENG
+		owner = ENG
+		add_core_of = ENG
 		victory_points = {
 			351 8 
 		}
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 1
-			dockyard = 4
+			dockyard = 3
 			air_base = 6
 			351 = {
 				naval_base = 6
-			}
-		}
-		1939.1.1 = {
-			buildings = {
-				dockyard = 5
-				industrial_complex = 2
 			}
 		}
 	}

@@ -2,7 +2,7 @@
 state={
 	id=130
 	name="STATE_130"
-	manpower = 4762495
+	manpower = 4405300 #уменьшил
 	
 	state_category = metropolis
 	
@@ -12,7 +12,8 @@ state={
 	}
 
 	history={
-		#owner = ENG
+		owner = ENG
+		add_core_of = ENG
 		victory_points = {
 			9379 10 
 		}
@@ -24,18 +25,11 @@ state={
 		}
 		buildings = {
 			infrastructure = 4 #was: 7
-			arms_factory = 2
+			arms_factory = 1
 			industrial_complex = 3
-			air_base = 10
+			air_base = 6
 			11297 = {
 				naval_base = 5
-			}
-		}
-		#add_core_of = ENG
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-				industrial_complex = 4
 			}
 		}
 	}
