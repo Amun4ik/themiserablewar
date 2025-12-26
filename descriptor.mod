@@ -13,8 +13,6 @@ tags={
 }
 
 
-replace_path="history/states"
-replace_path="history/countries"
 replace_path="common/national_focus"
 replace_path="common/bookmarks"
 replace_path="common/state_category"
@@ -23,9 +21,16 @@ replace_path="common/decisions"
 replace_path="common/scripted_effects"
 replace_path="common/scripted_triggers"
 replace_path="common/dynamic_modifiers"
+replace_path="common/ai_strategy"
+replace_path="common/ai_strategy_plans"
+replace_path="common/ai_templates"
+replace_path="history/countries"
 replace_path="history/general"
-replace_path="map"
+replace_path="history/states"
+replace_path="history/units"
+replace_path="map/strategicregions"
+replace_path="map/supplyareas"
 replace_path="events"
 
 name="The Miserable War"
-supported_version="1.17.0"
+supported_version="1.17.3"
