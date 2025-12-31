@@ -21,47 +21,6 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Division Coloniale"		
-	division_names_group = FRA_COL_01
-	# Represents: Div. d'Inf. Coloniale, Div. d'Inf. Nord-Africaine
-	# Difference from DI is their equipment
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 2x 155mm battalions
-	}
-}
-division_template = {
-	name = "Division d'Infanterie Motorisée"	# Division d'Infanterie Motorisée
-	division_names_group = FRA_MOT_01
-
-	regiments = {
-		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
-		motorized = { x = 0 y = 2 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-		motorized = { x = 2 y = 0 }
-		motorized = { x = 2 y = 1 }
-		motorized = { x = 2 y = 2 }
-	}
-	support = {
-		mot_recon = { x = 0 y = 0 }      # Recon Group consisted of 26 ACs + motorcycles
-		artillery = { x = 0 y = 1 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
-		engineer = { x = 0 y = 1 }
-	}
-}
-division_template = {
 	name = "Division d'Infanterie Alpine"	# Division d'Infanterie Alpine
 	division_names_group = FRA_MNT_01
 	# Note: trimmed to 3x Rgts w/ arty bn added, 1939
@@ -73,12 +32,6 @@ division_template = {
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
 		mountaineers = { x = 1 y = 2 }
-		mountaineers = { x = 2 y = 0 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 2 y = 1 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 2 y = 2 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 3 y = 0 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 3 y = 1 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 3 y = 2 }	# Chasseurs Alpins (HOI3 elites)
 	}
 }
 division_template = {
@@ -88,38 +41,15 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
-	}
-}
-division_template = {
-	name = "Division Légère Mécanique" 		# Division Légère Mécanique
-	division_names_group = FRA_MEC_01
-
-	regiments = {
-		light_armor = { x = 0 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
-		light_armor = { x = 0 y = 1 }		# Bn. of Hotchkiss tanks
-		motorized = { x = 1 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-		motorized = { x = 1 y = 3 }
-	}
-	support = {
-		mot_recon = { x = 0 y = 0 }      # Recon Group consisted of 42 ACs + motorcycles
-		engineer = { x = 0 y = 1 }
-	}
-}
-division_template = {
-	name = "Brigade de Chars de Combat" 	# Brigade de Chars de Combat, independent armor brigades of 2x Rgts., 2 Bns. each
-	division_names_group = FRA_ARM_01
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
 	}
 }
 division_template = {
@@ -139,13 +69,388 @@ division_template = {
 
 ##### OOB #####
 units = {
+	### elite infantry
 	division= {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11502
+		location = 11506
 		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11506
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11506
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	### veterans infantry
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 575
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11548
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 11483
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 3560
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 3652
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 13011
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 6545
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 9490
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 9523
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 512
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 3671
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 3552
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 9737
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 11834
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6613
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 11628
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 3838
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	### regular infantry
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 9909
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 3768
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 778
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 911
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 6766
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 6657
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 11465
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 6536
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 9434
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 6449
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	### specops
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9909
+		division_template = "Division d'Infanterie Alpine"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 778
+		division_template = "Division d'Infanterie Alpine"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 743
+		division_template = "Division d'Infanterie Alpine"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9898
+		division_template = "Division d'Infanterie Alpine"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	#cavalry
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9725
+		division_template = "Division de Cavalerie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 651
+		division_template = "Division de Cavalerie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 485
+		division_template = "Division de Cavalerie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 3594
+		division_template = "Division de Cavalerie"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}

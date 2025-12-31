@@ -1,4 +1,4 @@
-#oob = "BEL_1936"
+oob = "BEL"
 
 set_research_slots = 3
 

@@ -27,6 +27,7 @@ LAT = "countries/Latvia.txt"
 SLV = "countries/Soviet Latvia.txt"
 WHM = "countries/White Movement.txt"
 ENG = "countries/United Kingdom.txt"
+HOL = "countries/Netherlands.txt"
 
 # АЗИЯ
 TRA = "countries/Transamur.txt"

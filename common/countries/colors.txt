@@ -111,6 +111,10 @@ ENG = {
 	color = rgb { 155  72  92 }
 	color_ui = rgb { 155  72  92 }
 }
+HOL = {
+	color = rgb { 175  138  95 }
+	color_ui = rgb { 175  138  95 }
+}
 
 
 # АЗИЯ

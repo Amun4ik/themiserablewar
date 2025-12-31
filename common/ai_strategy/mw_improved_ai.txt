@@ -1,0 +1,319 @@
+more_mils = {
+	enable = {
+		OR = {
+			threat > 0.80
+			has_war = yes
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = added_military_to_civilian_factory_ratio
+		value = 20
+	}
+}
+
+less_bombers = {
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = tactical_bomber
+		value = -10
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = strategic_bomber
+		value = -10
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = naval_bomber
+		value = -10
+	}
+}
+more_cas = {
+	enable = {
+		has_deployed_air_force_size = {
+			type = fighter
+			size > 2500
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = cas
+		value = 15
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = cas
+		value = 3
+	}
+}
+min_mils_forcountry = {
+	enable = {
+		num_of_military_factories < 2
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 5
+	}
+}
+division_template_is_really_cool = {
+	enable = {
+		always = yes
+	}
+
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = land_xp_spend_priority
+		id = division_template
+		value = 100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = medium_armor
+		value = 100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = infantry
+		value = 100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = marines
+		value = 100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = mountaineers
+		value = 100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = 100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = cavalry
+		value = 100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = paratroopers
+		value = 100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = heavy_armor
+		value = 50
+	}
+}
+
+AI_1940_plane_is_slightly_better = {
+	enable = {
+		has_tech = improved_small_airframe
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = fighter_equipment_2
+		value = 50
+	}
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = fighter_equipment_1
+		value = -50
+	}
+}
+civil_war_no_garrison = {
+
+	enable = {
+		has_civil_war = yes
+		NOT = {
+			any_enemy_country = {
+				has_civil_war = no
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = garrison
+		value = -9999
+	}
+}
+
+inland_dont_need_garrison = {
+
+	enable = {
+		NOT = {
+			any_owned_state = {
+				is_coastal = yes
+			}
+		}
+		is_in_faction = yes
+		is_faction_leader = no
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = garrison
+		value = -80
+	}
+}
+
+no_garrison_in_minor_war = {
+	enable = {
+		NOT = {
+			any_country = {
+				has_war_with = ROOT
+				is_major = yes
+				has_navy_size = {
+					size > 10
+				}
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = garrison
+		value = -9999
+	}
+}
+major_train_base = {
+
+	enable = {
+		is_major = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = min_wanted_supply_trains
+		value = 100
+	}
+}
+minor_train_base = {
+
+	enable = {
+		is_major = no
+		NOT = {
+			is_literally_china = yes
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = min_wanted_supply_trains
+		value = 15
+	}
+}
+military_factory_ramping = {
+	enable = {
+		OR = {
+			threat > 0.25
+			has_war = yes
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = added_military_to_civilian_factory_ratio
+		value = 10
+	}
+}
+military_factory_ramping_2 = {
+	enable = {
+		OR = {
+			threat > 0.80
+			has_war = yes
+		}
+		OR = {
+			num_of_civilian_factories > 200
+			surrender_progress > 0
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = added_military_to_civilian_factory_ratio
+		value = 10
+	}
+}
+stop_making_horsies = {
+	enable = {
+		num_of_factories > 20
+		date > 1934.1.1
+	}
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = -100 # -100% cav
+	}		
+}
+
+############
+### LAND ###
+############
+#armor
+#infantry
+#motorized
+#mechanized
+#air_transport
+#anti_air
+#artillery
+#anti_tank
+#cavalry
+#marines
+#mountaineer
+
+# No cav if we have motor inf
+no_cavalry = {
+	enable = {
+		has_tech = motorised_infantry
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = -100 
+	}
+}
