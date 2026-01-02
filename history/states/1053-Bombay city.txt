@@ -1,0 +1,30 @@
+
+state = {
+	id = 1053
+	name = "STATE_1053"
+
+	history = {
+		owner = RAJ
+		add_core_of = RAJ
+		victory_points = {
+			1349 25 # Bombay City
+		}
+		buildings = {
+		    industrial_complex = 1
+		    arms_factory = 2
+		    air_base = 2
+			infrastructure = 4 
+			1349 = {
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces = {
+		1349
+	}
+	manpower = 11000000
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}
