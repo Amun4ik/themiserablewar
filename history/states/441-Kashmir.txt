@@ -7,14 +7,11 @@ state={
 	state_category = rural
 
 	history={
-		#owner = RAJ
+		owner = KAS
+		add_core_of = KAS
 		buildings = {
 			infrastructure = 1
 		}
-		#add_claim_by = RAJ
-		#add_claim_by = PAK
-		#add_core_of = KAS
-		#add_core_of = KHL 
 
 		victory_points = {
 			12754 1
@@ -22,7 +19,7 @@ state={
 	}
 
 	provinces={
-		5042 7273 7316 8005 10905 12754 12884 
+		7273 7316 8005 10905 12754 12884 
 	}
 
 	local_supplies=0.0 

@@ -220,3 +220,15 @@ BAN = {
 	color = rgb {  188  110  0 }
 	color_ui = rgb {  188  110  0 }
 }
+PAC = {
+	color = rgb {  62  96  47 }
+	color_ui = rgb {  62  96  47 }
+}
+KAS = {
+	color = rgb {  153 137 62 }
+	color_ui = rgb {  153 137 62 }
+}
+RAJ = {
+	color = rgb {  102  40  57 }
+	color_ui = rgb {  102  40  57 }
+}
